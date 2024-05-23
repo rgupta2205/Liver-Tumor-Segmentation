@@ -1,22 +1,9 @@
 # Liver-Tumor-Segmentation
 This project focuses on liver tumor segmentation using a modified U-Net architecture combined with Sobel edge detection. The objective is to improve segmentation accuracy by incorporating edge detection techniques.
 
-Table of Contents
-Installation
-Dataset
-Usage
-Model Architecture
-Training
-Evaluation
-Results
-Contributing
-License
-Installation
 To install the necessary libraries, run the following command:
-
-bash
-Copy code
 pip install pynrrd tensorflow scikit-image
+
 Dataset
 The dataset consists of NRRD files containing liver tumor images and their corresponding segmentation masks. The dataset should be organized in folders where each folder contains both segmented and unsegmented files.
 
