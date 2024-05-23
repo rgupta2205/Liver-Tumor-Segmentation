@@ -22,21 +22,16 @@ Model Architecture
 The model is a modified U-Net architecture. The key components of the architecture are:
 
 Input layer
-
 Multiple convolutional layers with ReLU activation
-
 MaxPooling layers
-
 Dropout layers
-
 Conv2DTranspose layers for upsampling
-
 Concatenate layers for merging features
-
 Final output layer with sigmoid activation
 
 
 Training
+
 The training process involves:
 
 Splitting the data into training and validation sets using train_test_split or KFold.
@@ -45,10 +40,12 @@ Compiling the model with an appropriate loss function and optimizer.
 Implementing early stopping to prevent overfitting.
 
 Evaluation
+
 The evaluation metrics include:
 
 Dice Coefficient: A measure of overlap between the predicted and true segmentation masks.
 AUC and ROC: For evaluating the classification performance.
 
 Results
+
 Results include the Dice Coefficient and AUC scores, along with visualizations of the segmented images compared to the ground truth.
