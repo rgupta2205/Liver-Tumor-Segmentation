@@ -8,6 +8,7 @@ Dataset
 The dataset consists of NRRD files containing liver tumor images and their corresponding segmentation masks. The dataset should be organized in folders where each folder contains both segmented and unsegmented files.
 
 Usage
+
 Finding NRRD Files
 The function find_nrrd_files(folder) reads segmented and unsegmented files from a given folder and organizes them into a dictionary.
 
